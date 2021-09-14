@@ -1,0 +1,7 @@
+{
+  "name": "backgroundNotification",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
