@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~12.1.1",
     "@angular/platform-browser-dynamic": "~12.1.1",
     "@angular/router": "~12.1.1",
+    "@ionic-native/background-geolocation": "^5.36.0",
     "@ionic-native/background-mode": "^5.36.0",
     "@ionic-native/core": "^5.36.0",
     "@ionic-native/geolocation": "^5.36.0",
@@ -40,6 +41,7 @@
     "@angular/language-service": "~12.0.1",
     "@ionic/angular-toolkit": "^4.0.0",
     "@ionic/lab": "^3.2.10",
+    "@mauron85/cordova-plugin-background-geolocation": "^3.1.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
@@ -82,6 +84,10 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-geolocation": {
         "GPS_REQUIRED": "true"
+      },
+      "cordova-plugin-background-geolocation": {
+        "ALWAYS_USAGE_DESCRIPTION": "This app always requires location tracking",
+        "MOTION_USAGE_DESCRIPTION": "This app requires motion detection"
       }
     },
     "platforms": [
